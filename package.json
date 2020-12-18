@@ -1,0 +1,16 @@
+{
+  "name": "surge-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "surge --login",
+    "deploy": "surge --project ./ --domain wehavebigswag.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "^0.21.7"
+  }
+}
